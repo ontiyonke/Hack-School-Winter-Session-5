@@ -48,7 +48,7 @@ The goal is to build a pokedex with as little guidance as possible, so try to co
 
 ######Main Screen
 * Build out a ListView that loads in the appropriate Pokemon based on the row number
-* Figure out how to parse the CSV file to get the right Pokemon data. Hint refer to the following link if stuck: http://stackoverflow.com/questions/5360628/get-and-parse-csv-file-in-android
+* Figure out how to parse the CSV file to get the right Pokemon data. You've been provided with a class that should handle the majority of the work for you
 * Each cell should have an ImageView and Textview with the right data loaded 
 * When pressed each cell should transition from the current MainActivity into the StatsActivity
 
