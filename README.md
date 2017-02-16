@@ -44,15 +44,23 @@ The project is for intermediate/advanced students. If you are feeling confident 
 complete the project without the skeleton, but it will be a lot easier to use it. We will be uploading the project solution later on, so if you haven't cracked it by then look at the solution to learn the correct implementation.
 
 ###Instructions
-The goal is to build a pokedex with as little guidance as possible, so try to come up with unique solutions when you run into problems. You're being given lots of flexibility so come up with your own implementation: grading will be very generous. For this project you've been only provided with the main menu ui, so the goal is to create the rest of the application your self. Here are instruction for each specific screen:
+The goal is to build a pokedex with as little guidance as possible, so try to come up with unique solutions when you run into problems. You're being given lots of flexibility so come up with your own implementation: grading will be very generous. For this project you've been only provided with the image assets for this project, so the goal is to create the rest of the application your self. Here are instruction for each specific screen:
 
-######ListView Screen
-
+######Main Screen
+* Build out a ListView that loads in the appropriate Pokemon based on the row number
+* Figure out how to parse the CSV file to get the right Pokemon data. Hint refer to the following link if stuck: http://stackoverflow.com/questions/5360628/get-and-parse-csv-file-in-android
+* Each cell should have an ImageView and Textview with the right data loaded 
+* When pressed each cell should transition from the current MainActivity into the StatsActivity
 
 ######Stats Screen
+* This page should recieve the selected Pokemon as a intent extra as well as the stats
+* The current stats for weight, height, and exp should be displayed to the user. These are all available in the csv file provided
+* There should be a button that allows you to return to the previous page 
 
 ###End Product Goal
-Main Menu
-![](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/02/BruinCam-Menu_nexus5x-portrait.png)
-Camera 
-![](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/02/BruinCam-Camera_nexus5x-portrait.png)
+
+Main Page
+![](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/02/pokedex1--1-.png)
+
+Stats Page
+![](https://s3-us-west-1.amazonaws.com/acm-hack-ghost/2017/02/pokedex2--1-.png)
